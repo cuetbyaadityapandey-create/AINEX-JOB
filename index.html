@@ -1,0 +1,1709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AINEX Careers & Placement</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#f7f9fc;
+overflow-x:hidden;
+}
+
+:root{
+--blue:#071E5A;
+--gold:#F5B400;
+--neon:#00E5FF;
+}
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:rgba(7,30,90,.97);
+backdrop-filter:blur(10px);
+padding:12px 5%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:999;
+box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo img{
+width:55px;
+height:55px;
+border-radius:50%;
+background:white;
+padding:4px;
+transition:.3s;
+}
+
+.logo img:hover{
+box-shadow:
+0 0 10px #F5B400,
+0 0 20px #F5B400;
+}
+
+.logo h2{
+color:#F5B400;
+font-size:24px;
+font-weight:700;
+}
+
+.logo p{
+font-size:12px;
+color:white;
+}
+
+nav{
+display:flex;
+gap:20px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-size:15px;
+transition:.3s;
+}
+
+nav a:hover{
+color:var(--neon);
+text-shadow:
+0 0 5px var(--neon),
+0 0 10px var(--neon);
+}
+
+.hero{
+
+min-height:72vh;
+
+background:
+linear-gradient(
+rgba(7,30,90,.92),
+rgba(7,30,90,.95)
+),
+url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f');
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+text-align:center;
+
+padding:
+120px 5%
+60px;
+
+}
+
+.hero-content{
+max-width:900px;
+}
+
+.hero h1{
+font-size:62px;
+font-weight:800;
+line-height:1.2;
+color:white;
+}
+
+.hero span{
+color:#F5B400;
+}
+
+.hero p{
+margin-top:20px;
+line-height:2;
+color:#ddd;
+font-size:18px;
+}
+
+.hero-buttons{
+margin-top:35px;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:12px;
+}
+
+.btn{
+padding:15px 25px;
+border-radius:12px;
+font-weight:600;
+text-decoration:none;
+transition:.3s;
+}
+
+.btn-primary{
+background:#F5B400;
+color:black;
+}
+
+.btn-outline{
+border:2px solid white;
+color:white;
+}
+
+.btn:hover{
+
+transform:translateY(-4px);
+
+box-shadow:
+0 0 10px rgba(245,180,0,.5),
+0 0 20px rgba(245,180,0,.3);
+
+}
+
+.notice{
+
+background:#F5B400;
+
+padding:14px;
+
+text-align:center;
+
+font-weight:700;
+
+}
+
+.section{
+padding:80px 5%;
+}
+
+.section-title{
+text-align:center;
+font-size:42px;
+color:#071E5A;
+margin-bottom:10px;
+}
+
+.section-sub{
+text-align:center;
+color:#666;
+margin-bottom:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+
+background:white;
+
+border:2px solid #eee;
+
+border-radius:20px;
+
+padding:25px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+transition:.4s;
+
+cursor:pointer;
+
+}
+
+.card:hover{
+
+transform:translateY(-5px);
+
+border-color:#00E5FF;
+
+box-shadow:
+0 0 10px rgba(0,229,255,.3),
+0 0 20px rgba(0,229,255,.2);
+
+}
+
+input,
+select{
+
+width:100%;
+
+padding:15px;
+
+border:1px solid #ddd;
+
+border-radius:12px;
+
+margin-top:8px;
+
+}
+
+input:focus,
+select:focus{
+
+outline:none;
+
+border:2px solid #00E5FF;
+
+box-shadow:
+0 0 10px rgba(0,229,255,.5);
+
+}
+
+@media(max-width:900px){
+
+.hero h1{
+font-size:40px;
+}
+
+nav{
+display:none;
+}
+
+.hero-buttons{
+flex-direction:column;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<img src="logo.png">
+
+<div>
+
+<h2>AINEX</h2>
+
+<p>Careers & Placement</p>
+
+</div>
+
+</div>
+
+<nav>
+
+<a href="#register">Register</a>
+<a href="#founder">Founder</a>
+<a href="#jobs">Jobs</a>
+<a href="#internships">Internships</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>
+
+India's Growing
+
+<span>Careers & Placement Network</span>
+
+</h1>
+
+<p>
+
+Jobs • Internships • Placement Assistance • Work From Home Opportunities
+
+<br><br>
+
+10th Pass • 12th Pass • ITI • Diploma • Graduate • Freshers Welcome
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#register" class="btn btn-primary">
+🚀 Apply Now
+</a>
+
+<a href="https://chat.whatsapp.com/F3yxBDNMl4s9jp7TMJ437h?s=cl&p=a&mlu=4"
+target="_blank"
+class="btn btn-outline">
+👥 Join Group
+</a>
+
+<a href="https://whatsapp.com/channel/0029Vb8nn6zHVvTZrXXK2s3E"
+target="_blank"
+class="btn btn-outline">
+📢 Join Channel
+</a>
+
+<a href="https://ainex.online"
+target="_blank"
+class="btn btn-outline">
+🌐 Visit Website
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="notice">
+🚀 Registration Open • Jobs Available • Internships Available • Join AINEX Careers Today
+</div>
+<style>
+
+.form-box{
+max-width:1000px;
+margin:auto;
+background:#fff;
+padding:30px;
+border-radius:25px;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.form-group{
+margin-bottom:18px;
+}
+
+.form-group label{
+display:block;
+font-size:15px;
+font-weight:600;
+color:#071E5A;
+margin-bottom:8px;
+}
+
+.profile-title{
+background:#071E5A;
+color:white;
+padding:15px 20px;
+border-radius:14px;
+font-size:22px;
+font-weight:700;
+margin:25px 0;
+}
+
+.submit-btn{
+width:100%;
+height:60px;
+background:#F5B400;
+border:none;
+border-radius:14px;
+font-size:18px;
+font-weight:700;
+cursor:pointer;
+transition:.3s;
+}
+
+.submit-btn:hover{
+transform:translateY(-3px);
+box-shadow:0 0 20px rgba(245,180,0,.5);
+}
+
+@media(max-width:768px){
+
+.form-box{
+padding:20px;
+}
+
+}
+
+</style>
+
+<section id="register" class="section">
+
+<h2 class="section-title">
+🚀 Candidate Registration
+</h2>
+
+<p class="section-sub">
+Complete your profile and apply for jobs, internships and placement opportunities.
+</p>
+
+<div class="form-box">
+
+<div class="grid">
+
+<div class="form-group">
+<label>👤 Full Name *</label>
+<input type="text" id="name" placeholder="Enter Full Name">
+</div>
+
+<div class="form-group">
+<label>📱 Mobile Number *</label>
+<input type="tel" id="mobile" placeholder="Enter Mobile Number">
+</div>
+
+<div class="form-group">
+<label>📧 Email Address</label>
+<input type="email" id="email" placeholder="Enter Email Address">
+</div>
+
+<div class="form-group">
+<label>🎓 Qualification</label>
+<select id="qualification">
+
+<option>Select Qualification</option>
+
+<option>10th Pass</option>
+<option>12th Pass</option>
+<option>ITI</option>
+<option>Diploma</option>
+<option>Graduate</option>
+<option>Post Graduate</option>
+
+</select>
+</div>
+
+<div class="form-group">
+<label>🏛 State</label>
+
+<select id="state" onchange="updateDistricts()">
+
+<option value="">Select State</option>
+
+<option value="UP">Uttar Pradesh</option>
+
+<option value="Delhi">Delhi</option>
+
+<option value="Maharashtra">Maharashtra</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label>📍 District</label>
+
+<select id="district">
+
+<option>
+First Select State
+</option>
+
+</select>
+
+</div>
+
+</div>
+
+<div class="profile-title">
+💻 Professional Profile
+</div>
+
+<div class="grid">
+
+<div class="form-group">
+
+<label>💻 Computer Knowledge</label>
+
+<select id="computerLevel">
+
+<option>Basic Computer</option>
+
+<option>Intermediate Computer</option>
+
+<option>Advanced Computer</option>
+
+<option>Computer Operator</option>
+
+<option>Expert User</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label>💼 Experience</label>
+
+<select id="experience">
+
+<option>Fresher</option>
+
+<option>0-6 Months</option>
+
+<option>6 Months - 1 Year</option>
+
+<option>1-2 Years</option>
+
+<option>2-5 Years</option>
+
+<option>5+ Years</option>
+
+</select>
+
+</div>
+
+</div>
+
+<div class="form-group">
+
+<label>📚 Computer Course</label>
+
+<select id="course">
+
+<option>Select Course</option>
+
+<option>CCC</option>
+
+<option>DCA</option>
+
+<option>ADCA</option>
+
+<option>Tally</option>
+
+<option>O Level</option>
+
+<option>PGDCA</option>
+
+<option>Basic Computer</option>
+
+<option>Other</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<input
+type="text"
+id="otherCourse"
+placeholder="Other Course (Optional)">
+
+</div>
+<div class="grid">
+
+<div class="form-group">
+
+<label>🛠 Primary Skill</label>
+
+<select id="skill1">
+
+<option>Select Skill</option>
+
+<option>Data Entry</option>
+<option>Telecalling</option>
+<option>Customer Support</option>
+<option>Sales</option>
+<option>Graphic Design</option>
+<option>Digital Marketing</option>
+<option>Web Development</option>
+<option>Social Media</option>
+<option>E-Commerce</option>
+<option>MS Office</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label>🛠 Secondary Skill</label>
+
+<select id="skill2">
+
+<option>Select Skill</option>
+
+<option>Data Entry</option>
+<option>Telecalling</option>
+<option>Customer Support</option>
+<option>Sales</option>
+<option>Graphic Design</option>
+<option>Digital Marketing</option>
+<option>Web Development</option>
+<option>Social Media</option>
+<option>E-Commerce</option>
+<option>MS Office</option>
+
+</select>
+
+</div>
+
+</div>
+
+<div class="form-group">
+
+<label>🛠 Third Skill</label>
+
+<select id="skill3">
+
+<option>Select Skill</option>
+
+<option>Data Entry</option>
+<option>Telecalling</option>
+<option>Customer Support</option>
+<option>Sales</option>
+<option>Graphic Design</option>
+<option>Digital Marketing</option>
+<option>Web Development</option>
+<option>Social Media</option>
+<option>E-Commerce</option>
+<option>MS Office</option>
+
+</select>
+
+</div>
+
+<div class="grid">
+
+<div class="form-group">
+
+<label>💼 Job Type</label>
+
+<select id="jobType">
+
+<option>Full Time</option>
+<option>Part Time</option>
+<option>Work From Home</option>
+<option>Internship</option>
+<option>Freelance</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label>🏠 Work Preference</label>
+
+<select id="workmode">
+
+<option>Work From Home</option>
+<option>Office Job</option>
+<option>Hybrid</option>
+
+</select>
+
+</div>
+
+</div>
+
+<br>
+
+<button class="submit-btn" onclick="submitApplication()">
+
+🚀 Submit Application
+
+</button>
+
+</div>
+
+</section>
+
+<script>
+
+function updateDistricts(){
+
+const state=document.getElementById("state").value;
+const district=document.getElementById("district");
+
+district.innerHTML="<option>Select District</option>";
+
+const data={
+
+UP:[
+
+"Agra","Aligarh","Ambedkar Nagar","Amethi","Amroha","Auraiya",
+"Ayodhya","Azamgarh","Baghpat","Bahraich","Ballia","Balrampur",
+"Banda","Barabanki","Bareilly","Basti","Bhadohi","Bijnor",
+"Budaun","Bulandshahr","Chandauli","Deoria","Etah","Etawah",
+"Farrukhabad","Fatehpur","Firozabad","Gautam Buddha Nagar",
+"Ghaziabad","Ghazipur","Gonda","Gorakhpur","Hamirpur",
+"Hapur","Hardoi","Hathras","Jalaun","Jaunpur","Jhansi",
+"Kannauj","Kanpur Dehat","Kanpur Nagar","Kasganj",
+"Kaushambi","Kushinagar","Lakhimpur Kheri","Lalitpur",
+"Lucknow","Maharajganj","Mahoba","Mainpuri","Mathura",
+"Mau","Meerut","Mirzapur","Moradabad","Muzaffarnagar",
+"Pilibhit","Pratapgarh","Prayagraj","Raebareli","Rampur",
+"Saharanpur","Sambhal","Sant Kabir Nagar",
+"Shahjahanpur","Shamli","Shravasti",
+"Siddharth Nagar","Sitapur","Sonbhadra",
+"Sultanpur","Unnao","Varanasi"
+
+],
+
+Delhi:[
+
+"Central Delhi",
+"East Delhi",
+"New Delhi",
+"North Delhi",
+"North East Delhi",
+"North West Delhi",
+"South Delhi",
+"South East Delhi",
+"South West Delhi",
+"West Delhi"
+
+],
+
+Maharashtra:[
+
+"Mumbai City",
+"Mumbai Suburban",
+"Pune",
+"Nagpur",
+"Nashik",
+"Thane",
+"Aurangabad",
+"Kolhapur",
+"Solapur"
+
+]
+
+};
+
+if(!data[state]) return;
+
+data[state].forEach(function(item){
+
+let option=document.createElement("option");
+
+option.value=item;
+option.text=item;
+
+district.appendChild(option);
+
+});
+
+}
+
+function submitApplication(){
+
+alert("Application Submitted Successfully!");
+
+}
+
+</script>
+ <!-- =========================
+PART 3 : FOUNDER & CEO
+========================= -->
+
+<section id="founder" class="section">
+
+<h2 class="section-title">
+👨‍💼 Founder & CEO
+</h2>
+
+<p class="section-sub">
+Vision Behind AINEX Careers & Placement
+</p>
+
+<div class="card" style="
+max-width:1100px;
+margin:auto;
+padding:30px;
+">
+
+<div style="
+display:grid;
+grid-template-columns:300px 1fr;
+gap:30px;
+align-items:center;
+">
+
+<div style="text-align:center;">
+
+<img src="founder.jpg"
+
+style="
+width:260px;
+height:260px;
+object-fit:cover;
+border-radius:20px;
+border:5px solid #F5B400;
+max-width:100%;
+">
+
+</div>
+
+<div>
+
+<h2 style="
+color:#071E5A;
+font-size:36px;
+margin-bottom:10px;
+">
+
+Aaditya Pandey
+
+</h2>
+
+<h4 style="
+color:#F5B400;
+font-size:20px;
+margin-bottom:20px;
+">
+
+Founder & CEO
+
+</h4>
+
+<p style="
+line-height:2;
+color:#555;
+font-size:16px;
+">
+
+AINEX Careers & Placement ka mission students,
+freshers aur professionals ko better career
+opportunities se connect karna hai.
+
+Hum jobs, internships, placement assistance,
+career guidance aur skill development support
+provide karte hain taaki candidates apni
+career journey ko fast aur professional tareeke
+se grow kar saken.
+
+</p>
+
+<br>
+
+<div style="
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+">
+
+<a href="https://nexo-e-store.store.shoopy.in"
+target="_blank"
+class="btn btn-primary">
+
+🌐 Visit Website
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+</section>
+
+<style>
+
+@media(max-width:900px){
+
+#founder .card div{
+
+grid-template-columns:1fr !important;
+
+text-align:center;
+
+}
+
+}
+
+</style>
+ <!-- =========================
+LATEST JOB OPPORTUNITIES
+========================= -->
+
+</style>
+<section class="section">
+
+<h2 class="section-title">
+🏫 Connected Institutes
+</h2>
+
+<p class="section-sub">
+Official Training & Education Partners
+</p>
+
+<div class="grid">
+
+<!-- Climex -->
+
+<div class="card" style="
+text-align:center;
+padding:30px;
+">
+
+<div style="
+display:flex;
+justify-content:center;
+">
+
+<img src="climex.jpg"
+style="
+width:220px;
+height:220px;
+object-fit:cover;
+border-radius:20px;
+border:5px solid #F5B400;
+margin-bottom:20px;
+">
+
+</div>
+
+<h2 style="
+font-size:32px;
+font-weight:800;
+color:#071E5A;
+margin-bottom:15px;
+">
+CLIMEX COMPUTER INSTITUTE
+</h2>
+
+<div style="
+display:inline-block;
+background:#F5B400;
+padding:10px 20px;
+border-radius:30px;
+font-weight:700;
+margin-bottom:20px;
+">
+👨‍💼 Arpan Singh
+</div>
+
+<div style="
+background:#f7f9fc;
+padding:20px;
+border-radius:15px;
+text-align:left;
+">
+
+<p><b>📍 Address</b></p>
+
+<p>
+Parasrampur, Basti,
+Uttar Pradesh
+</p>
+
+<hr style="margin:15px 0;">
+
+<p>💻 CCC, DCA, ADCA, PGDCA</p>
+
+<p>🎓 Computer Education</p>
+
+<p>🚀 Career Guidance & Placement Support</p>
+
+</div>
+
+</div>
+
+<!-- CGITM -->
+
+<div class="card" style="
+text-align:center;
+padding:30px;
+">
+
+<div style="
+display:flex;
+justify-content:center;
+">
+
+<img src="cgitm.jpg"
+style="
+width:220px;
+height:220px;
+object-fit:cover;
+border-radius:20px;
+border:5px solid #F5B400;
+margin-bottom:20px;
+">
+
+</div>
+
+<h2 style="
+font-size:32px;
+font-weight:800;
+color:#071E5A;
+margin-bottom:15px;
+">
+CGITM
+</h2>
+
+<div style="
+display:inline-block;
+background:#F5B400;
+padding:10px 20px;
+border-radius:30px;
+font-weight:700;
+margin-bottom:20px;
+">
+👨‍💼 Vijay Chauhan
+</div>
+
+<div style="
+background:#f7f9fc;
+padding:20px;
+border-radius:15px;
+text-align:left;
+">
+
+<p><b>📍 Address</b></p>
+
+<p>
+Kohraye Market,
+Basti,
+Uttar Pradesh
+</p>
+
+<hr style="margin:15px 0;">
+
+<p>💻 CCC, DCA, ADCA, O Level</p>
+
+<p>🎓 Professional Computer Education</p>
+
+<p>🚀 Training & Placement Support</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+ <section id="jobs" class="section">
+
+<h2 class="section-title">
+💼 Latest Job Opportunities
+</h2>
+
+<p class="section-sub">
+Apply for the latest jobs available through AINEX Careers & Placement.
+</p>
+
+<div class="grid">
+
+<div class="card">
+<h3>📞 Telecaller Executive</h3>
+<p>🎓 Qualification: 12th Pass</p>
+<p>💰 Salary: ₹8,000 - ₹18,000</p>
+<p>🏠 Work From Home Available</p>
+<p>🚀 Immediate Hiring</p>
+</div>
+
+<div class="card">
+<h3>💻 Data Entry Operator</h3>
+<p>🎓 Basic Computer Required</p>
+<p>💰 Salary: ₹10,000 - ₹22,000</p>
+<p>📍 Multiple Locations</p>
+<p>🚀 Freshers Welcome</p>
+</div>
+
+<div class="card">
+<h3>🛒 E-Commerce Executive</h3>
+<p>📦 Amazon • Flipkart • Meesho</p>
+<p>💰 Salary: ₹12,000 - ₹25,000</p>
+<p>🏠 Hybrid Work</p>
+<p>🚀 Immediate Joining</p>
+</div>
+
+<div class="card">
+<h3>📈 Digital Marketing Executive</h3>
+<p>📢 SEO & Social Media</p>
+<p>💰 Salary: ₹15,000 - ₹35,000</p>
+<p>🌐 Remote Available</p>
+<p>🚀 Growth Opportunity</p>
+</div>
+
+<div class="card">
+<h3>🎨 Graphic Designer</h3>
+<p>🎨 Canva • Photoshop</p>
+<p>💰 Salary: ₹12,000 - ₹30,000</p>
+<p>🏠 Work From Home</p>
+<p>🚀 Immediate Hiring</p>
+</div>
+
+<div class="card">
+<h3>🌐 Web Developer</h3>
+<p>💻 HTML • CSS • JavaScript</p>
+<p>💰 Salary: ₹18,000 - ₹45,000</p>
+<p>🌐 Remote Available</p>
+<p>🚀 Premium Opportunity</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+INTERNSHIP PROGRAMS
+========================= -->
+
+<section id="internships" class="section">
+
+<h2 class="section-title">
+🎓 Internship Programs
+</h2>
+
+<p class="section-sub">
+Build experience and improve your professional skills.
+</p>
+
+<div class="grid">
+
+<div class="card">
+<h3>📈 Digital Marketing Internship</h3>
+<p>📢 SEO & Social Media Marketing</p>
+<p>🏆 Certificate Included</p>
+<p>⏳ Duration: 2 Months</p>
+<p>🚀 Skill Development</p>
+</div>
+
+<div class="card">
+<h3>💻 Web Development Internship</h3>
+<p>🌐 HTML • CSS • JavaScript</p>
+<p>🏆 Certificate Included</p>
+<p>⏳ Duration: 3 Months</p>
+<p>🚀 Live Projects</p>
+</div>
+
+<div class="card">
+<h3>🎨 Graphic Design Internship</h3>
+<p>🎨 Canva • Photoshop</p>
+<p>🏆 Certificate Included</p>
+<p>⏳ Duration: 2 Months</p>
+<p>🚀 Portfolio Building</p>
+</div>
+
+<div class="card">
+<h3>📱 Social Media Internship</h3>
+<p>📱 Instagram & Facebook</p>
+<p>🏆 Certificate Included</p>
+<p>⏳ Duration: 2 Months</p>
+<p>🚀 Real Campaign Work</p>
+</div>
+
+<div class="card">
+<h3>🛒 E-Commerce Internship</h3>
+<p>📦 Product Listing & Store Management</p>
+<p>🏆 Certificate Included</p>
+<p>⏳ Duration: 2 Months</p>
+<p>🚀 Marketplace Training</p>
+</div>
+
+<div class="card">
+<h3>⌨ Data Entry Internship</h3>
+<p>💻 MS Office & Data Handling</p>
+<p>🏆 Certificate Included</p>
+<p>⏳ Duration: 1 Month</p>
+<p>🚀 Computer Training</p>
+</div>
+
+</div>
+
+</section>
+
+<style>
+
+/* PREMIUM NEON CARD EFFECT */
+
+.card{
+
+background:#ffffff;
+
+border:2px solid rgba(0,229,255,.20);
+
+border-radius:22px;
+
+padding:25px;
+
+position:relative;
+
+overflow:hidden;
+
+transition:.4s;
+
+box-shadow:
+0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.card::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+left:-100%;
+
+width:100%;
+height:100%;
+
+background:
+linear-gradient(
+90deg,
+transparent,
+rgba(0,229,255,.15),
+transparent
+);
+
+transition:.8s;
+
+}
+
+.card:hover::before{
+
+left:100%;
+
+}
+
+.card:hover{
+
+transform:
+translateY(-8px)
+scale(1.02);
+
+border-color:#00E5FF;
+
+box-shadow:
+
+0 0 10px rgba(0,229,255,.5),
+
+0 0 20px rgba(0,229,255,.35),
+
+0 0 35px rgba(0,229,255,.25);
+
+}
+
+.card h3{
+
+color:#071E5A;
+
+margin-bottom:12px;
+
+font-size:20px;
+
+font-weight:700;
+
+}
+
+.card p{
+
+color:#555;
+
+line-height:1.8;
+
+}
+
+</style>
+ <!-- =========================
+HIRING PARTNERS
+========================= -->
+
+<section id="partners" class="section">
+
+<h2 class="section-title">
+🤝 Hiring Partners
+</h2>
+
+<p class="section-sub">
+Industries & Organizations Working With AINEX
+</p>
+
+<div class="grid">
+
+<div class="card">
+<h3>🏢 IT Companies</h3>
+<p>Software Development, Web Development & Technical Roles</p>
+</div>
+
+<div class="card">
+<h3>📞 BPO & Call Centers</h3>
+<p>Customer Support, Telecalling & Backend Process Jobs</p>
+</div>
+
+<div class="card">
+<h3>🏥 Hospitals</h3>
+<p>Healthcare, Receptionist & Administration Opportunities</p>
+</div>
+
+<div class="card">
+<h3>🏫 Educational Institutes</h3>
+<p>Teaching, Counseling & Office Administration Roles</p>
+</div>
+
+<div class="card">
+<h3>🛒 E-Commerce Companies</h3>
+<p>Product Listing, Operations & Marketplace Management</p>
+</div>
+
+<div class="card">
+<h3>🏭 Manufacturing Industries</h3>
+<p>Supervisor, Computer Operator & Management Positions</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+WHY CHOOSE AINEX
+========================= -->
+
+<section id="why-ainex" class="section">
+
+<h2 class="section-title">
+⭐ Why Choose AINEX
+</h2>
+
+<p class="section-sub">
+Your Trusted Career Growth Partner
+</p>
+
+<div class="grid">
+
+<div class="card">
+<h3>🚀 Fast Registration</h3>
+<p>Simple and quick registration process for every candidate.</p>
+</div>
+
+<div class="card">
+<h3>💼 Job Opportunities</h3>
+<p>Latest private sector jobs and work from home opportunities.</p>
+</div>
+
+<div class="card">
+<h3>🎓 Internship Programs</h3>
+<p>Professional internships with certificates and training.</p>
+</div>
+
+<div class="card">
+<h3>📈 Career Guidance</h3>
+<p>Support to help candidates choose the right career path.</p>
+</div>
+
+<div class="card">
+<h3>🌐 Growing Network</h3>
+<p>Connecting candidates with trusted companies and recruiters.</p>
+</div>
+
+<div class="card">
+<h3>🏆 Placement Assistance</h3>
+<p>Helping students and freshers reach better opportunities.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+AINEX HIGHLIGHT STRIP
+========================= -->
+
+<section style="
+padding:40px 5%;
+background:#071E5A;
+text-align:center;
+">
+
+<h2 style="
+color:#F5B400;
+font-size:32px;
+margin-bottom:15px;
+">
+
+🚀 AINEX Careers & Placement
+
+</h2>
+
+<p style="
+color:white;
+font-size:18px;
+line-height:1.8;
+max-width:900px;
+margin:auto;
+">
+
+Helping Students, Freshers and Professionals
+Find Better Career Opportunities Through
+Jobs, Internships, Skill Development
+and Placement Assistance.
+
+</p>
+
+</section>
+ <!-- =========================
+CONTACT SECTION
+========================= -->
+
+<section id="contact" class="section">
+
+<p class="section-sub">
+Get connected with AINEX Careers & Placement
+</p>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>📱 WhatsApp Group</h3>
+
+<p>
+Join our official placement group for latest jobs and internships.
+</p>
+
+<br>
+
+<a href="https://chat.whatsapp.com/F3yxBDNMl4s9jp7TMJ437h?s=cl&p=a&mlu=4"
+target="_blank"
+class="btn btn-primary">
+
+👥 Join Group
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>📢 WhatsApp Channel</h3>
+
+<p>
+Get latest career updates directly on WhatsApp.
+</p>
+
+<br>
+
+<a href="https://whatsapp.com/channel/0029Vb8nn6zHVvTZrXXK2s3E"
+target="_blank"
+class="btn btn-primary">
+
+📢 Join Channel
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>🌐 Official Website</h3>
+
+<p>
+Visit AINEX official platform for more updates.
+</p>
+
+<br>
+
+<a href="https://ainex.online"
+target="_blank"
+class="btn btn-primary">
+
+🌐 Visit Website
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+CALL TO ACTION
+========================= -->
+
+<section style="
+padding:60px 5%;
+background:#071E5A;
+text-align:center;
+">
+
+<h2 style="
+color:#F5B400;
+font-size:38px;
+margin-bottom:20px;
+">
+
+🚀 Ready To Build Your Career?
+
+</h2>
+
+<p style="
+color:white;
+font-size:18px;
+line-height:1.8;
+max-width:800px;
+margin:auto;
+">
+
+Register today and get access to jobs,
+internships, placement opportunities
+and career guidance.
+
+</p>
+
+<br><br>
+
+
+</section>
+
+<!-- =========================
+FOOTER
+========================= -->
+
+<footer style="
+background:#050F2F;
+padding:50px 5%;
+color:white;
+">
+
+<div class="grid">
+
+<div>
+
+<h2 style="color:#F5B400;">
+AINEX
+</h2>
+
+<p style="line-height:2;">
+India's Growing Careers & Placement Network.
+Helping students, freshers and professionals
+find better opportunities.
+</p>
+
+</div>
+
+<div>
+
+<h3 style="color:#F5B400;">
+Quick Links
+</h3>
+
+<p><a href="#register" style="color:white;text-decoration:none;">Registration</a></p>
+
+<p><a href="#jobs" style="color:white;text-decoration:none;">Latest Jobs</a></p>
+
+<p><a href="#internships" style="color:white;text-decoration:none;">Internships</a></p>
+
+<p><a href="#contact" style="color:white;text-decoration:none;">Contact</a></p>
+
+</div>
+
+<div>
+
+<h3 style="color:#F5B400;">
+Community
+</h3>
+
+<p>
+WhatsApp Group
+</p>
+
+<p>
+WhatsApp Channel
+</p>
+
+<p>
+Career Updates
+</p>
+
+<p>
+Placement Support
+</p>
+
+</div>
+
+</div>
+
+<hr style="
+margin:30px 0;
+border-color:rgba(255,255,255,.1);
+">
+
+<p style="
+text-align:center;
+color:#aaa;
+">
+
+© 2026 AINEX Careers & Placement |
+Designed By Aaditya Pandey
+
+</p>
+
+</footer>
+
+<!-- =========================
+WHATSAPP SUBMIT SYSTEM
+========================= -->
+
+<script>
+
+function submitApplication(){
+
+var name=document.getElementById("name").value;
+var mobile=document.getElementById("mobile").value;
+
+if(name==="" || mobile===""){
+
+alert("Please Fill Name & Mobile Number");
+
+return;
+
+}
+
+var state=document.getElementById("state").value;
+var district=document.getElementById("district").value;
+var qualification=document.getElementById("qualification").value;
+var computer=document.getElementById("computerLevel").value;
+var experience=document.getElementById("experience").value;
+var course=document.getElementById("course").value;
+var skill1=document.getElementById("skill1").value;
+var skill2=document.getElementById("skill2").value;
+var skill3=document.getElementById("skill3").value;
+var jobType=document.getElementById("jobType").value;
+
+var msg =
+"🚀 AINEX Candidate Registration %0A%0A"+
+"👤 Name: "+name+"%0A"+
+"📱 Mobile: "+mobile+"%0A"+
+"🏛 State: "+state+"%0A"+
+"📍 District: "+district+"%0A"+
+"🎓 Qualification: "+qualification+"%0A"+
+"💻 Computer Level: "+computer+"%0A"+
+"💼 Experience: "+experience+"%0A"+
+"📚 Course: "+course+"%0A"+
+"🛠 Skill 1: "+skill1+"%0A"+
+"🛠 Skill 2: "+skill2+"%0A"+
+"🛠 Skill 3: "+skill3+"%0A"+
+"💼 Job Type: "+jobType;
+
+6window.open(
+"https://wa.me/919236414171?text="+msg,
+"_blank"
+);
+}
+
+</script>
